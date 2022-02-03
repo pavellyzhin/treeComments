@@ -6,7 +6,7 @@ class commentsController {
 	private $commentsWood=[];	
 	public $model,$view;
 	
-	function __constructor($model,$view){
+	function __construct($model,$view){
 	
 		$this->model = $model;
 		$this->view = $view;
